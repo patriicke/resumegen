@@ -24,15 +24,7 @@ const Footer = () => {
         align={{ base: "center", md: "center" }}
       >
         <Stack direction={{ base: "column", md: "row" }} fontWeight={"medium"}>
-          <Text>&copy; 2024 Resumegen. Designed By</Text>
-          <Text
-            as={"a"}
-            href={"https://www.linkedin.com/in/abbdul-hannan/"}
-            target={"_blank"}
-            color={"blue.600"}
-          >
-            Abdul Hannan
-          </Text>
+          <Text>&copy; 2024 Resumegen.</Text>
         </Stack>
 
         <Stack direction={"row"} spacing={6}>
